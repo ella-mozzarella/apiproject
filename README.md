@@ -5,8 +5,9 @@ Instructies
   - Om te gebruiken, open de folder "addressapi" in command line en typ 
   "dotnet run"
   - U heeft een Google Maps DistanceMatrix API key nodig voor string apiKey in AddressController.
-    - apiproject/AddressApi/Controllers/AddressController
-      - string apiKey = "GOOGLE_API_KEY"; 
+    - apiproject/AddressApi/Controllers/AddressController.cs
+      - GetDistance
+        - string apiKey = "GOOGLE_API_KEY"; 
   - U kunt de api testen door Swagger UI op https://localhost:7195/swagger.
 
 Informatie
